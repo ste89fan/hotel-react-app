@@ -106,7 +106,7 @@
 .roomBtn {
     position: absolute;
     top: 50%;
-    right:37%;
+    left: 30%;
     background-color: black;
     border-radius: 10%;
     color: red;
@@ -173,4 +173,53 @@
 
   .extrasField ul {
       list-style: none;
+      padding-left: 0;
+  }
+
+  .errorSearchRoom {
+      color: red;
+      text-align: center;
+  }
+
+  .searchSection { 
+      padding: 70px;
+  }
+
+  .filterForm {
+    width: 60vw;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));
+    grid-row-gap: 1rem;
+    grid-column-gap: 20px;
+    justify-content: center;
+  }
+
+
+  .formGroup label {
+      text-transform: capitalize;
+  }
+
+
+  .extras {
+    display: inline-block;
+  }
+
+  .roomsFieldSec {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 40px;
+  }
+
+  @media screen and (min-width: 776px) {
+    .filterForm {
+      width: 70vw;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .filterForm {
+      width: 95vw;
+      max-width: 1170px;
+    }
   }

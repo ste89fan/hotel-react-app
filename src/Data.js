@@ -2,6 +2,7 @@ import room1 from "./RoomImages/details-1.jpeg";
 import room2 from "./RoomImages/details-2.jpeg";
 import room3 from "./RoomImages/details-3.jpeg";
 import room4 from "./RoomImages/details-4.jpeg";
+import imga from "./RoomImages/carpet-hotel.jpg";
 import img1 from "./RoomImages/room-1.jpeg";
 import img2 from "./RoomImages/room-2.jpeg";
 import img3 from "./RoomImages/room-3.jpeg";
@@ -75,13 +76,13 @@ export default [
   },
   {
     sys: {
-      id: "1"
+      id: "2"
     },
     fields: {
-      name: "single economy",
-      slug: "single-economy",
+      name: "single",
+      slug: "single",
       type: "single",
-      price: 100,
+      price: 180,
       size: 200,
       capacity: 1,
       pets: false,
@@ -102,7 +103,7 @@ export default [
         {
           fields: {
             file: {
-              url: img1
+              url: imga
             }
           }
         },
@@ -132,7 +133,7 @@ export default [
   },
   {
     sys: {
-      id: "2"
+      id: "3"
     },
     fields: {
       name: "single basic",
@@ -189,7 +190,7 @@ export default [
   },
   {
     sys: {
-      id: "3"
+      id: "4"
     },
     fields: {
       name: "single standard",
@@ -246,7 +247,7 @@ export default [
   },
   {
     sys: {
-      id: "4"
+      id: "5"
     },
     fields: {
       name: "single deluxe",
@@ -303,7 +304,7 @@ export default [
   },
   {
     sys: {
-      id: "5"
+      id: "6"
     },
     fields: {
       name: "double economy",
@@ -360,7 +361,7 @@ export default [
   },
   {
     sys: {
-      id: "6"
+      id: "7"
     },
     fields: {
       name: "double basic",
@@ -417,7 +418,7 @@ export default [
   },
   {
     sys: {
-      id: "7"
+      id: "8"
     },
     fields: {
       name: "double standard",
@@ -474,7 +475,7 @@ export default [
   },
   {
     sys: {
-      id: "8"
+      id: "9"
     },
     fields: {
       name: "double deluxe",
@@ -531,7 +532,7 @@ export default [
   },
   {
     sys: {
-      id: "9"
+      id: "10"
     },
     fields: {
       name: "family economy",
@@ -588,7 +589,7 @@ export default [
   },
   {
     sys: {
-      id: "10"
+      id: "11"
     },
     fields: {
       name: "family basic",
@@ -645,7 +646,7 @@ export default [
   },
   {
     sys: {
-      id: "11"
+      id: "12"
     },
     fields: {
       name: "family standard",
@@ -702,7 +703,7 @@ export default [
   },
   {
     sys: {
-      id: "12"
+      id: "13"
     },
     fields: {
       name: "family deluxe",
@@ -759,7 +760,7 @@ export default [
   },
   {
     sys: {
-      id: "13"
+      id: "14"
     },
     fields: {
       name: "presidential",

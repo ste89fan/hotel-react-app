@@ -7,12 +7,12 @@ import RoomsContainer from "../components/RoomsContainer";
 function Rooms() {
   return(
     <>
-      <RoomsContainer />
       <Hero hero="roomsHero">
         <Banner title="Welcome in our rooms">
           <Link to="/" className="btn-primary">Go on home page</Link>
         </Banner>
       </Hero>
+      <RoomsContainer />
     </>
   ) 
 }

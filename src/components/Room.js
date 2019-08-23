@@ -12,7 +12,10 @@ function Room({ room }) {
                 <h6>${price}</h6>
                 <p>per night</p>
             </div>
-            <Link to={`/rooms/${slug}`} className="btn-primary roomBtn">Features</Link>
+            
+              <Link to={`/rooms/${slug}`} className="btn-primary roomBtn">Info about room</Link>
+            
+            
       </div>
       <p className="roomInfo">{name}</p>
     </article>
